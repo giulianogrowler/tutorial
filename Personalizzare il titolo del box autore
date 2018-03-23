@@ -1,9 +1,0 @@
-<?php
-// Do not include the opening php tag.
- 
-// Cambiare il titolo del box autore.
-add_filter( 'genesis_author_box_title', 'growler_custom_author_box_title' );
-function growler_custom_author_box_title() {
-    
-	return '<h1>Info Autore</h1>';
-}
